@@ -1,0 +1,45 @@
+.list__item {
+  list-style-type: lower-greek;
+}
+
+.App-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+          "header header"
+          "nav content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: green;
+}
+
+.header__img {
+  width: 20px;
+  height: auto;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: aqua;
+}
+
+.nav__list {
+}
+
+.nav__item {
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  grid-area: content;
+  height: 100%;
+}
