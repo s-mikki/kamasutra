@@ -2,7 +2,7 @@ import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox'
 import {PaletteTree} from './palette'
 import Header from "../components/simple/header/Header";
 import Navbar from "../components/simple/navbar/Navbar";
-import Post from "../components/ordinary/my-posts/Post";
+import Post from "../components/ordinary/post/Post";
 
 const ComponentPreviews = () => {
     return (
