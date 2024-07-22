@@ -14,32 +14,3 @@
   grid-template-columns: 2fr 10fr;
   gap: 10px;
 }
-
-.header {
-  grid-area: header;
-  background-color: green;
-}
-
-.header__img {
-  width: 20px;
-  height: auto;
-}
-
-.nav {
-  grid-area: nav;
-  background-color: aqua;
-}
-
-.nav__list {
-}
-
-.nav__item {
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  background-color: blue;
-  grid-area: content;
-  height: 100%;
-}
