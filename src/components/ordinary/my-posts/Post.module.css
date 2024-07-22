@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    grid-area: content;
+    height: 100%;
+}
+
+.comment {
+
+}
+
+.comment__item {
+
+}
+
+.circle {
+
+}
+
+.comment__text {
+
+}
