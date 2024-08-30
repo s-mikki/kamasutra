@@ -33,3 +33,14 @@ code {
 li {
   list-style: none;
 }
+
+:root {
+/* применение var(--color-blue); */
+/*css - переменные*/
+  --white: #ffffff;
+  --red: #ff0000;
+  --green: #00ff00;
+  --blue: #00ff;
+  --yellow: #ff0;
+  --black: #0A0A0A;
+}

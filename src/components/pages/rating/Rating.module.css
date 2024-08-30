@@ -1,0 +1,136 @@
+.rating {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.rating__title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+}
+
+.rating__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(21, 1fr);
+  gap: 10px;
+}
+
+.rating__item {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 0;
+  background-color: var(--white);
+  border-radius: 8px;
+  justify-content: space-between;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.rating__item:nth-child(1) {
+  background-color: var(--blue);
+  grid-column: 1 / 2;
+  grid-row: 1 / 8;
+}
+
+.rating__item:nth-child(2) {
+  background-color: var(--blue);
+  grid-column: 1 / 2;
+  grid-row: 8 / 15;
+}
+
+.rating__item:nth-child(3) {
+  background-color: var(--blue);
+  grid-column: 1 / 2;
+  grid-row: 15 / 22;
+}
+
+.rating__item:nth-child(n+4) {
+  grid-column: 2 / 3;
+  grid-row: span 3;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.rating__content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.rating__img {
+  width: 50px;
+  height: 50px;
+}
+
+.rating__item:nth-child(1) .rating__img,
+.rating__item:nth-child(2) .rating__img,
+.rating__item:nth-child(3) .rating__img {
+  width: 100px;
+  height: 100%;
+}
+
+
+.rating__item:nth-child(1) .rating__number,
+.rating__item:nth-child(2) .rating__number,
+.rating__item:nth-child(3) .rating__number {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.rating__texts {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+.rating__number {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  width: 50px;
+  background-color: var(--blue);
+  height: 100%;
+  color: var(--white);
+  justify-content: center;
+  border-radius: 0 5px 5px 0;
+}
+
+.rating__name {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.rating__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.rating__item:nth-child(n+4) .rating__container {
+  flex-direction: row;
+}
+
+.rating__text {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.rating__score {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}

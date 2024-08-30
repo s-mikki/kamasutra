@@ -1,0 +1,29 @@
+.dialogs {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: 2fr 10fr;
+  padding: 15px;
+}
+
+.dialogs__list {
+
+}
+
+.dialogs__item {
+
+}
+.dialogs__item .active {
+background-color: crimson;
+}
+
+.dialogs__massages {
+
+}
+
+.dialogs__massage {
+
+}
+
+.dialogs__text {
+
+}
