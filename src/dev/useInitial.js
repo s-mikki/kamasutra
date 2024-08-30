@@ -11,5 +11,12 @@ export const useInitial = () => {
       If you caught some errors, set error status to true.
       Initial hook is considered to be successfully completed if it will return {loading: false, error: false}.
     */
+  /*
+   Здесь можно реализовать функцию перехвата.
+   Если вам нужно выполнить асинхронную операцию, установите для загрузки значение true, а когда она закончится, установите для загрузки значение false.
+   Если вы обнаружили какие-либо ошибки, установите для статуса ошибки значение true.
+   Начальный хук считается успешно завершенным, если он вернет {loading: false, error: false}.
+  */
+
     return status
 }

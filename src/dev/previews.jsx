@@ -3,6 +3,7 @@ import {PaletteTree} from './palette'
 import Header from "../components/simple/header/Header";
 import Navbar from "../components/simple/navbar/Navbar";
 import Post from "../components/ordinary/post/Post";
+import DataItem from "../components/ordinary/data-item/data-item";
 
 const ComponentPreviews = () => {
     return (
@@ -15,6 +16,9 @@ const ComponentPreviews = () => {
             </ComponentPreview>
             <ComponentPreview path="/Post">
                 <Post/>
+            </ComponentPreview>
+            <ComponentPreview path="/DataItem">
+                <DataItem/>
             </ComponentPreview>
         </Previews>
     )

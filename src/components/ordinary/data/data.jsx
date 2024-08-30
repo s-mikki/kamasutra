@@ -1,5 +1,5 @@
  import React from "react";
-import classes from "./data.module.css";
+ import classes from "./data.module.css";
  import DataItem from "../data-item/data-item";
 
 const Data = () => {
