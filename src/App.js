@@ -17,11 +17,11 @@ function App() {
         <Navbar/>
         <div className={classes.app__content}>
           <Routes>
-            <Route exact path='' Component={Profile}/>
+            <Route path='' Component={Profile}/>
             <Route path='/dialogs' Component={Dialogs}/>
-            <Route exact path='/News' Component={News}/>
-            <Route exact path='/rating' Component={Rating}/>
-            <Route exact path='/Music' Component={Music}/>
+            <Route path='/News' Component={News}/>
+            <Route path='/rating' Component={Rating}/>
+            <Route path='/Music' Component={Music}/>
           </Routes>
         </div>
       </div>
