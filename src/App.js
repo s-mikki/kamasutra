@@ -3,11 +3,12 @@ import Header from "./components/simple/header/Header";
 import Navbar from "./components/simple/navbar/Navbar";
 import classes from "./App.module.css";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Dialogs from "./components/pages/dialogs/Dialogs";
-import Profile from "./components/pages/profile/Profile";
-import News from "./components/pages/news/News";
-import Rating from "./components/pages/rating/Rating";
-import Music from "./components/pages/music/Music";
+import Dialogs from "./pages/dialogs/Dialogs";
+import Profile from "./pages/profile/Profile";
+import News from "./pages/news/News";
+import Rating from "./pages/rating/Rating";
+import Music from "./pages/music/Music";
+import Modal from "./components/smart/modal/Modal";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/Music' Component={Music}/>
           </Routes>
         </div>
+        <Modal/>
       </div>
     </BrowserRouter>
 

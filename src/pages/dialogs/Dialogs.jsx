@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Dialogs.module.css";
-import Massages from "../../ordinary/massages/Massages";
-import DialogsList from "../../ordinary/dialogs-list/Dialogs-List";
+import Massages from "../../components/ordinary/massages/Massages";
+import DialogsList from "../../components/ordinary/dialogs-list/Dialogs-List";
 
 const Dialogs = () => {
     return(
